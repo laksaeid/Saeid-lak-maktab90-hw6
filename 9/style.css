@@ -367,7 +367,6 @@ hr{
   width: 250px;
   border-bottom: 3px solid white;
   padding: 30px;
-  padding-top: 50px;
   border-right: 1px solid white;
   border-left: 1px solid white;
 }
@@ -406,6 +405,19 @@ hr{
   border-bottom: 3px solid #6200bd94;
   border-right: 1px solid #6200bd93;
   border-left: 1px solid #6200bd91;
+}
+.setq::before{
+  content: '';
+  background-image: url(img/qout.svg);
+  position: relative;
+  right: 28px;
+  top: 5px;
+  width: 29px;
+  height: 22px;
+  display: block;
+  translate: scale(.5,.5);
+  transform: scale(.5);
+
 }
 .more{
   padding-top: 30px;
