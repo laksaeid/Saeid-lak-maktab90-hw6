@@ -1,22 +1,20 @@
 const Steps = {
   step: 0,
   Increase() {
-    return (this.step += 1);
+    this.step++;
+    return this;
   },
   Decrease() {
-    return (this.step -= 1);
+    this.step--;
+    return this;
   },
   Reset() {
-    return (this.step = 0);
+    this.step = 0
+    return this;
   },
   Read() {
     return this.step;
   },
 };
-console.log(Steps.Increase());
-console.log(Steps.Increase());
-console.log(Steps.Increase());
-console.log(Steps.Increase());
-console.log(Steps.Increase());
-console.log(Steps.Reset());
-console.log(Steps.Read());
+Steps.Increase().Increase().Increase().Decrease().Reset();
+console.log(Steps.step);
