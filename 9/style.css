@@ -297,6 +297,7 @@ input:checked + label:after {
   border-bottom: 3px solid #6100bd;
   border-right: 1px solid #6100bd;
   border-left: 1px solid #6100bd;
+  transition: all 1s;
   
   
 }
@@ -405,6 +406,7 @@ hr{
   border-bottom: 3px solid #6200bd94;
   border-right: 1px solid #6200bd93;
   border-left: 1px solid #6200bd91;
+  transition: all 1s;
 }
 .setq::before{
   content: '';
