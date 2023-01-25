@@ -160,7 +160,7 @@ h1{
   display: flex;
 }
 .features > div{
-  box-shadow: 0 0 20px rgb(175 175 175);
+  box-shadow: 0 0 15px rgb(197, 197, 197);
     margin: 0 20px;
     padding: 10px;
     width: 200px;
@@ -458,7 +458,7 @@ hr{
   background-color: #46b6ee00;
   height: 470px;
   width: 400px;
-
+  box-shadow: 0px 0px 5px 1px #e8e1ea;
 }
 .six-slides div img{
   margin-bottom: 10px;
